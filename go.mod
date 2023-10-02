@@ -1,5 +1,5 @@
-module twds
+module github.com/raumanzug/twds
 
-go 1.19
+go 1.18
 
-require golang.org/x/net v0.0.0-20220809184613-07c6da5e1ced
+require golang.org/x/net v0.15.0

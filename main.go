@@ -36,10 +36,6 @@ func getSpaceDirName(config *Config) (dirName string, err error) {
 	return
 }
 
-func access_logger(pH *webdav.Handler, pReq *http.Request, err error) {
-	log.Print(*pReq, err)
-}
-
 type Config struct {
 	Listen string
 	Prefix string
